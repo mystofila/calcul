@@ -1,17 +1,47 @@
 #tab{
+    
     border-collapse:collapse;
     background-color: rgb(175, 173, 173);
-    
+    margin: auto;
+   
 }
 td{
     border: 5px blue solid;
+    text-align: center;
+    
+}
+.reset{
+    margin-left: 60%;
+}
+
+
+header{
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: aqua;
 }
 h3{
     color: brown;
 }
 h1{
-    background-color: rgb(19, 131, 93);
+    text-align: center;
+  
+}
+h2{
+  
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-size: 15px;
+  
 }
 html{
     background-image: url(medieval-city-3.jpg);
+}
+.egal{
+    text-align: center;
+}
+button {
+    background-color: rgb(130, 115, 207);
 }
