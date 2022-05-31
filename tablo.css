@@ -1,0 +1,17 @@
+#tab{
+    border-collapse:collapse;
+    background-color: rgb(175, 173, 173);
+    
+}
+td{
+    border: 5px blue solid;
+}
+h3{
+    color: brown;
+}
+h1{
+    background-color: rgb(19, 131, 93);
+}
+html{
+    background-image: url(medieval-city-3.jpg);
+}
