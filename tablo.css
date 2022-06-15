@@ -18,13 +18,16 @@ td{
 header{
     margin-left: 30%;
     margin-right: 30%;
-    background-color: aqua;
+    background-color: rgb(61, 61, 60);
+    color: beige;
 }
 h3{
     color: brown;
 }
 h1{
-    text-align: center;
+    margin: 1%;
+    margin-left: 4%;
+    color: antiquewhite;
   
 }
 h2{
@@ -44,4 +47,89 @@ html{
 }
 button {
     background-color: rgb(130, 115, 207);
+}
+
+.deco{
+    border: black 3px solid;
+    width: 10%;
+    height: 30px;
+}
+img {
+    width:200px;
+    height:auto;
+    
+  }
+.conteneur{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+
+   figure {
+    width:200px;
+    border:5px ridge rgb(93, 87, 87);
+    position:relative;
+    margin-left: 1.5%;
+    background-color: rgb(91, 93, 93);
+
+  }
+   
+  figcaption {
+  opacity:0;
+  background-color: AntiqueWhite;
+  text-align:center;
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  border:5px ridge grey;
+  }
+   
+  figure:hover figcaption {
+  transition:all 0.5s;
+    opacity:1;
+  } 
+  .test{
+    width: 20%;
+    text-align: center;
+    color: rgb(207, 207, 207);
+    background-color: rgb(61, 61, 60);
+  }
+ 
+  .navi{
+    display: flex;
+    background-color: rgb(61, 61, 60);
+  }
+a{
+    color: aliceblue;
+}
+.titre{
+    text-align: center;
+    font-size: 30px;
+    color: chocolate;
+    position: relative;
+    left: 10%;
+}
+.pres{
+    margin: 10%;
+    color: rgb(252, 252, 252);
+    background-color: rgb(61, 61, 60);
+    font-size: 40px;
+}
+footer{
+    background-color: rgb(61, 61, 60);
+width: 100%;
+display: flex;
+position: absolute;
+bottom: 0;
+}
+.foot{
+margin-left: 3%;
+margin-right: 3%;
+}
+.fin{
+    background-color: rgb(61, 61, 60);
+    width: 100%;
+    display: flex;
 }
